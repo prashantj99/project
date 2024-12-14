@@ -14,16 +14,15 @@ export default function Home() {
   return (
     <div className="flex min-h-screen bg-gray-50">
       <Sidebar />
-      
       {/* Main content */}
-      <div className="flex-1 p-4 lg:p-8 ml-0 lg:ml-64">
+      <div className="flex-1 p-4 lg:p-8 ml-0">
         <ProgressSteps
           currentStep={currentStep}
           onStepClick={setCurrentStep}
         />
 
         {/* Form content */}
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl">
           <h2 className="text-xl font-semibold mb-6">File your Claim</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8">

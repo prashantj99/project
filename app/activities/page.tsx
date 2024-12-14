@@ -1,7 +1,7 @@
 "use client";
 
 import { Card } from "@/components/ui/card";
-import { Activity, Badge, FileText, MessageSquare, Scale } from "lucide-react";
+import { Badge, FileText, MessageSquare, Scale } from "lucide-react";
 
 const activities = [
   {
